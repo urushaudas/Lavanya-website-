@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./accountstyles.css" />
+  <title>Lavanya - Ecommerce Website</title>
+</head>
+
+<body>
+
+    <div class = heroine>
+      <div class = "form-box">
+        <div class="button-box">
+          <div id="btn"></div>
+            <button type="button" class="toogle-btn" onclick="login()">Login</button>
+            <button type="button" class="toogle-btn" onclick="register()">Register</button>
+        </div>
+
+        <div class="social-icons">
+            <img src="images/facebook.png" alt="">
+            <img src="images/twitter.png" alt="">
+            <img src="images/google.png" alt="">
+        </div>
+
+      <form id="login" class="input-group">
+        <input type="text" class="input-field" placeholder="User ID" required>
+        <input type="password" class="input-field" placeholder="Enter Password" required>
+        <input type="checkbox" name="checkbox" class="checkbox">
+        <label for="checkbox">Remember password</label>
+        <button type="submit" class="submit-btn">Login</button>
+      </form>
+
+      <form id="register" class="input-group">
+        <input type="text" class="input-field" placeholder="User ID" required>
+        <input type="email" class="input-field" placeholder="Email ID" required>
+        <input type="password" class="input-field" placeholder="Enter password" required>
+        <input type="checkbox" name="checkbox" class="checkbox">
+        <label for="checkbox">I agree with the terms and conditions</label>
+        <button type="submit" class="submit-btn">Register</button>
+      </form>
+    </div>
+  <script src="./js/accounts.js"></script>
+
+  <!-- Footer -->
+  <footer id="footer" class="section footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>EXTRAS</h3>
+          <a href="#">Brands</a>
+          <a href="#">Gift Certificates</a>
+          <a href="#">Affiliate</a>
+          <a href="#">Specials</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div class="footer-center">
+          <h3>INFORMATION</h3>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Site Map</a>
+        </div>
+        <div class="footer-center">
+          <h3>MY ACCOUNT</h3>
+          <a href="#">My Account</a>
+          <a href="#">Order History</a>
+          <a href="#">Wish List</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Returns</a>
+        </div>
+        <div class="footer-center">
+          <h3>CONTACT US</h3>
+          <div>
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            42 Dream House, Dreammy street, 7131 Dreamville, USA
+          </div>
+          <div>
+            <span>
+              <i class="far fa-envelope"></i>
+            </span>
+            company@gmail.com
+          </div>
+          <div>
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            456-456-4512
+          </div>
+          <div class="payment-methods">
+            <img src="./images/payment.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+</body>
+
+</html>
